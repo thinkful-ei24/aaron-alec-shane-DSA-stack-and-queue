@@ -4,7 +4,6 @@ class _Node {
     this.next = next;
   }
 }
-
 class Stack {
   constructor() {
     this.top = null;
@@ -164,13 +163,15 @@ function main() {
 
   const test_stack = new Stack();
 
-  test_stack.push(5);
-  test_stack.push(1);
-  test_stack.push(3);
-  test_stack.push(7);
+//   test_stack.push(5);
+//   test_stack.push(1);
+//   test_stack.push(3);
+//   test_stack.push(7);
 
-  display(test_stack);
-  display(sortStack(test_stack));
+//   display(test_stack);
+//   display(sortStack(test_stack));
 }
 
 main();
+
+module.exports = Stack;
